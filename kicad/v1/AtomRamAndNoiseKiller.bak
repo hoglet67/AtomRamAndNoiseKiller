@@ -314,72 +314,72 @@ NVDG
 $Comp
 L power:VCC #PWR012
 U 1 1 5CB33914
-P 6050 1150
-F 0 "#PWR012" H 6050 1000 50  0001 C CNN
-F 1 "VCC" H 6067 1323 50  0000 C CNN
-F 2 "" H 6050 1150 50  0001 C CNN
-F 3 "" H 6050 1150 50  0001 C CNN
-	1    6050 1150
+P 6050 1100
+F 0 "#PWR012" H 6050 950 50  0001 C CNN
+F 1 "VCC" H 6067 1273 50  0000 C CNN
+F 2 "" H 6050 1100 50  0001 C CNN
+F 3 "" H 6050 1100 50  0001 C CNN
+	1    6050 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 5CB33943
-P 6050 2950
-F 0 "#PWR013" H 6050 2700 50  0001 C CNN
-F 1 "GND" H 6055 2777 50  0000 C CNN
-F 2 "" H 6050 2950 50  0001 C CNN
-F 3 "" H 6050 2950 50  0001 C CNN
-	1    6050 2950
+P 6050 2900
+F 0 "#PWR013" H 6050 2650 50  0001 C CNN
+F 1 "GND" H 6055 2727 50  0000 C CNN
+F 2 "" H 6050 2900 50  0001 C CNN
+F 3 "" H 6050 2900 50  0001 C CNN
+	1    6050 2900
 	-1   0    0    -1  
 $EndComp
-Text Label 6550 1550 0    50   ~ 0
+Text Label 6550 1500 0    50   ~ 0
 A0
-Text Label 6550 1450 0    50   ~ 0
+Text Label 6550 1400 0    50   ~ 0
 A1
-Text Label 6550 1350 0    50   ~ 0
+Text Label 6550 1300 0    50   ~ 0
 A2
-Text Label 6550 1650 0    50   ~ 0
+Text Label 6550 1600 0    50   ~ 0
 A3
-Text Label 6550 1750 0    50   ~ 0
+Text Label 6550 1700 0    50   ~ 0
 A4
-Text Label 6550 1850 0    50   ~ 0
+Text Label 6550 1800 0    50   ~ 0
 A5
-Text Label 6550 2350 0    50   ~ 0
+Text Label 6550 2300 0    50   ~ 0
 A6
-Text Label 6550 2150 0    50   ~ 0
+Text Label 6550 2100 0    50   ~ 0
 A7
-Text Label 6550 2250 0    50   ~ 0
+Text Label 6550 2200 0    50   ~ 0
 A8
-Text Label 6550 2450 0    50   ~ 0
+Text Label 6550 2400 0    50   ~ 0
 A9
-Text Label 6550 2550 0    50   ~ 0
+Text Label 6550 2500 0    50   ~ 0
 A10
-Text Label 6550 2050 0    50   ~ 0
+Text Label 6550 2000 0    50   ~ 0
 A11
-Text Label 6550 1950 0    50   ~ 0
+Text Label 6550 1900 0    50   ~ 0
 A12
-Text Label 5550 2450 2    50   ~ 0
+Text Label 5550 2400 2    50   ~ 0
 GND
-Text Label 5550 2750 2    50   ~ 0
+Text Label 5550 2700 2    50   ~ 0
 GND
-Text Label 5550 2550 2    50   ~ 0
+Text Label 5550 2500 2    50   ~ 0
 NWE
-Text Label 5550 2050 2    50   ~ 0
+Text Label 5550 2000 2    50   ~ 0
 RD0
-Text Label 5550 1950 2    50   ~ 0
+Text Label 5550 1900 2    50   ~ 0
 RD1
-Text Label 5550 1850 2    50   ~ 0
+Text Label 5550 1800 2    50   ~ 0
 RD2
-Text Label 5550 1750 2    50   ~ 0
+Text Label 5550 1700 2    50   ~ 0
 RD3
-Text Label 5550 1650 2    50   ~ 0
+Text Label 5550 1600 2    50   ~ 0
 RD4
-Text Label 5550 1350 2    50   ~ 0
+Text Label 5550 1300 2    50   ~ 0
 RD5
-Text Label 5550 1450 2    50   ~ 0
+Text Label 5550 1400 2    50   ~ 0
 RD6
-Text Label 5550 1550 2    50   ~ 0
+Text Label 5550 1500 2    50   ~ 0
 RD7
 $Comp
 L 74xx:74LS00 U2
@@ -821,17 +821,17 @@ Wire Wire Line
 $Comp
 L local:Generic_32Kx8_SRAM U5
 U 1 1 5CB46E17
-P 6050 2050
-F 0 "U5" H 5700 3000 50  0000 C CNN
-F 1 "8Kx8 SRAM" H 5700 2900 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 6050 2050 50  0001 C CNN
-F 3 "" H 6050 2150 50  0001 C CNN
-	1    6050 2050
+P 6050 2000
+F 0 "U5" H 5700 2950 50  0000 C CNN
+F 1 "8Kx8 SRAM" H 5700 2850 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 6050 2000 50  0001 C CNN
+F 3 "" H 6050 2100 50  0001 C CNN
+	1    6050 2000
 	-1   0    0    -1  
 $EndComp
-Text Label 6550 2750 0    50   ~ 0
+Text Label 6550 2700 0    50   ~ 0
 GND
-Text Label 6550 2650 0    50   ~ 0
+Text Label 6550 2600 0    50   ~ 0
 GND
 Wire Wire Line
 	2100 2350 2100 4100
