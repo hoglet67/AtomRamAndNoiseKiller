@@ -18,8 +18,8 @@ $Comp
 L 74xx:74LS573 U4
 U 1 1 5CB31091
 P 4450 1850
-F 0 "U4" H 4200 2650 50  0000 C CNN
-F 1 "74LS573" H 4200 2550 50  0000 C CNN
+F 0 "U4" H 4150 2650 50  0000 C CNN
+F 1 "74HCT573" H 4150 2550 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4450 1850 50  0001 C CNN
 F 3 "74xx/74hc573.pdf" H 4450 1850 50  0001 C CNN
 	1    4450 1850
@@ -30,32 +30,10 @@ L 74xx:74LS245 U3
 U 1 1 5CB31185
 P 2850 1850
 F 0 "U3" H 2550 2650 50  0000 C CNN
-F 1 "74LS245" H 2550 2550 50  0000 C CNN
+F 1 "74HCT245" H 2550 2550 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 2850 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 2850 1850 50  0001 C CNN
 	1    2850 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U2
-U 4 1 5CB3125F
-P 4500 4300
-F 0 "U2" H 4500 4625 50  0000 C CNN
-F 1 "74LS00" H 4500 4534 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4500 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4500 4300 50  0001 C CNN
-	4    4500 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS123 U1
-U 1 1 5CB31357
-P 3250 4000
-F 0 "U1" H 3250 4467 50  0000 C CNN
-F 1 "74LS123" H 3250 4376 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3250 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 3250 4000 50  0001 C CNN
-	1    3250 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -107,7 +85,7 @@ L Device:C C7
 U 1 1 5CB31B3B
 P 2300 3750
 F 0 "C7" H 2415 3796 50  0000 L CNN
-F 1 "150p" H 2415 3705 50  0000 L CNN
+F 1 "68p" H 2415 3705 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 2338 3600 50  0001 C CNN
 F 3 "~" H 2300 3750 50  0001 C CNN
 	1    2300 3750
@@ -381,57 +359,8 @@ Text Label 5550 1400 2    50   ~ 0
 RD6
 Text Label 5550 1500 2    50   ~ 0
 RD7
-$Comp
-L 74xx:74LS00 U2
-U 2 1 5CB33DE5
-P 4500 4900
-F 0 "U2" H 4500 5225 50  0000 C CNN
-F 1 "74LS00" H 4500 5134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4500 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4500 4900 50  0001 C CNN
-	2    4500 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U2
-U 5 1 5CB33E8A
-P 3200 6950
-F 0 "U2" H 3430 6996 50  0000 L CNN
-F 1 "74LS00" H 3430 6905 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3200 6950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3200 6950 50  0001 C CNN
-	5    3200 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS123 U1
-U 2 1 5CB33F3B
-P 1550 5600
-F 0 "U1" H 1550 6067 50  0000 C CNN
-F 1 "74LS123" H 1550 5976 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 1550 5600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 1550 5600 50  0001 C CNN
-	2    1550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS123 U1
-U 3 1 5CB34024
-P 2400 6950
-F 0 "U1" H 2630 6996 50  0000 L CNN
-F 1 "74LS123" H 2630 6905 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2400 6950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 2400 6950 50  0001 C CNN
-	3    2400 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 7450 3200 7450
 Wire Wire Line
 	6100 7450 6100 7100
-Connection ~ 3200 7450
-Wire Wire Line
-	3200 7450 3950 7450
 Wire Wire Line
 	5700 7100 5700 7450
 Connection ~ 5700 7450
@@ -460,13 +389,8 @@ Wire Wire Line
 Wire Wire Line
 	6100 6450 6100 6800
 Wire Wire Line
-	2400 6450 3200 6450
-Connection ~ 3200 6450
-Wire Wire Line
 	3950 6800 3950 6450
 Connection ~ 3950 6450
-Wire Wire Line
-	3950 6450 3200 6450
 Wire Wire Line
 	4400 6800 4400 6450
 Connection ~ 4400 6450
@@ -586,17 +510,6 @@ Wire Wire Line
 	3750 4200 4200 4200
 Text Label 4200 4400 2    50   ~ 0
 NVDG
-$Comp
-L 74xx:74LS00 U2
-U 3 1 5CB46B81
-P 5100 4600
-F 0 "U2" H 5100 4925 50  0000 C CNN
-F 1 "74LS00" H 5100 4834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5100 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5100 4600 50  0001 C CNN
-	3    5100 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 4300 4800 4500
 Wire Wire Line
@@ -666,7 +579,7 @@ L Device:R R3
 U 1 1 5CB4E6C0
 P 3450 5300
 F 0 "R3" H 3520 5346 50  0000 L CNN
-F 1 "47K" H 3520 5255 50  0000 L CNN
+F 1 "4K7" H 3520 5255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 5300 50  0001 C CNN
 F 3 "~" H 3450 5300 50  0001 C CNN
 	1    3450 5300
@@ -695,45 +608,23 @@ Wire Wire Line
 Connection ~ 3450 4900
 Text Label 3450 4900 0    50   ~ 0
 RRDISABLE
-$Comp
-L 74xx:74LS00 U2
-U 1 1 5CB560A6
-P 1600 4500
-F 0 "U2" H 1600 4825 50  0000 C CNN
-F 1 "74LS00" H 1600 4734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1600 4500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1600 4500 50  0001 C CNN
-	1    1600 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 4500 2750 4500
-Wire Wire Line
-	1300 4400 1300 4600
-Wire Wire Line
-	1300 4600 1300 4700
-Connection ~ 1300 4600
 $Comp
 L power:GND #PWR01
 U 1 1 5CB5EA3A
-P 1300 4700
-F 0 "#PWR01" H 1300 4450 50  0001 C CNN
-F 1 "GND" H 1305 4527 50  0000 C CNN
-F 2 "" H 1300 4700 50  0001 C CNN
-F 3 "" H 1300 4700 50  0001 C CNN
-	1    1300 4700
+P 1200 4700
+F 0 "#PWR01" H 1200 4450 50  0001 C CNN
+F 1 "GND" H 1205 4527 50  0000 C CNN
+F 2 "" H 1200 4700 50  0001 C CNN
+F 3 "" H 1200 4700 50  0001 C CNN
+	1    1200 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 5700 1050 5800
-Wire Wire Line
 	1050 6100 1550 6100
-Connection ~ 1050 5800
-Wire Wire Line
-	1050 5800 1050 6100
 Wire Wire Line
 	1550 6100 1550 6200
-Connection ~ 1550 6100
 $Comp
 L power:GND #PWR02
 U 1 1 5CB62464
@@ -879,4 +770,117 @@ Text Label 1200 1550 2    50   ~ 0
 VD1
 Text Label 1200 1450 2    50   ~ 0
 VD0
+$Comp
+L 74xx:74HCT123 U1
+U 1 1 5CB75C76
+P 3250 4000
+F 0 "U1" H 3250 4467 50  0000 C CNN
+F 1 "74HCT123" H 3250 4376 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3250 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT123 U1
+U 2 1 5CB75D20
+P 1550 5600
+F 0 "U1" H 1550 6067 50  0000 C CNN
+F 1 "74HCT123" H 1550 5976 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 1550 5600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf" H 1550 5600 50  0001 C CNN
+	2    1550 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5800 1050 6100
+Connection ~ 1550 6100
+Wire Wire Line
+	1050 5700 1050 5800
+Connection ~ 1050 5800
+$Comp
+L 74xx:74HCT00 U2
+U 1 1 5CB785EC
+P 1600 4500
+F 0 "U2" H 1600 4825 50  0000 C CNN
+F 1 "74HCT00" H 1600 4734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1600 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 1600 4500 50  0001 C CNN
+	1    1600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4600 1200 4600
+$Comp
+L 74xx:74HCT00 U2
+U 2 1 5CB7868E
+P 4500 4900
+F 0 "U2" H 4500 5225 50  0000 C CNN
+F 1 "74HCT00" H 4500 5134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4500 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 4500 4900 50  0001 C CNN
+	2    4500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT00 U2
+U 3 1 5CB78730
+P 5100 4600
+F 0 "U2" H 5100 4925 50  0000 C CNN
+F 1 "74HCT00" H 5100 4834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5100 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 5100 4600 50  0001 C CNN
+	3    5100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT00 U2
+U 4 1 5CB7878C
+P 4500 4300
+F 0 "U2" H 4500 4625 50  0000 C CNN
+F 1 "74HCT00" H 4500 4534 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4500 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 4500 4300 50  0001 C CNN
+	4    4500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6450 3250 6450
+Wire Wire Line
+	2400 7450 3250 7450
+$Comp
+L 74xx:74HCT123 U1
+U 3 1 5CB788BB
+P 2400 6950
+F 0 "U1" H 2630 6996 50  0000 L CNN
+F 1 "74HCT123" H 2630 6905 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2400 6950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf" H 2400 6950 50  0001 C CNN
+	3    2400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT00 U2
+U 5 1 5CB78A47
+P 3250 6950
+F 0 "U2" H 3480 6996 50  0000 L CNN
+F 1 "74HCT00" H 3480 6905 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3250 6950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 3250 6950 50  0001 C CNN
+	5    3250 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 6450
+Wire Wire Line
+	3250 6450 3950 6450
+Connection ~ 3250 7450
+Wire Wire Line
+	3250 7450 3950 7450
+Wire Wire Line
+	1200 4700 1200 4600
+Wire Wire Line
+	1200 4600 1200 4400
+Wire Wire Line
+	1200 4400 1300 4400
+Connection ~ 1200 4600
 $EndSCHEMATC
