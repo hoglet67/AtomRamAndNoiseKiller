@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Generic_32Kx8_SRAM
+D Generic 32Kx8 SRAM, 28 pin DIP
+K SRAM 32K
+$ENDCMP
+#
+#End Doc Library

@@ -59,23 +59,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 3250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J1
-U 1 1 5CB3180C
-P 1600 1750
-F 0 "J1" H 1650 2367 50  0000 C CNN
-F 1 "Conn_02x10_Counter_Clockwise" H 1650 2276 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 1600 1750 50  0001 C CNN
-F 3 "~" H 1600 1750 50  0001 C CNN
-	1    1600 1750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5CB31891
 P 6950 4100
 F 0 "J6" H 6900 4400 50  0000 L CNN
 F 1 "Conn_01x03" H 6850 4300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6950 4100 50  0001 C CNN
+F 2 "footprints:FinePinHeader_1x03_P2.54mm_Vertical" H 6950 4100 50  0001 C CNN
 F 3 "~" H 6950 4100 50  0001 C CNN
 	1    6950 4100
 	1    0    0    -1  
@@ -86,7 +75,7 @@ U 1 1 5CB3198E
 P 6950 1800
 F 0 "J4" H 6900 2400 50  0000 L CNN
 F 1 "Conn_01x09" H 6750 2300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 6950 1800 50  0001 C CNN
+F 2 "footprints:FinePinHeader_1x09_P2.54mm_Vertical" H 6950 1800 50  0001 C CNN
 F 3 "~" H 6950 1800 50  0001 C CNN
 	1    6950 1800
 	1    0    0    -1  
@@ -97,7 +86,7 @@ U 1 1 5CB319E9
 P 6950 3050
 F 0 "J5" H 6900 3650 50  0000 L CNN
 F 1 "Conn_01x09" H 6800 3550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 6950 3050 50  0001 C CNN
+F 2 "footprints:FinePinHeader_1x09_P2.54mm_Vertical" H 6950 3050 50  0001 C CNN
 F 3 "~" H 6950 3050 50  0001 C CNN
 	1    6950 3050
 	1    0    0    -1  
@@ -130,7 +119,7 @@ U 1 1 5CB31BB9
 P 3950 6950
 F 0 "C1" H 4065 6996 50  0000 L CNN
 F 1 "100n" H 4065 6905 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 3988 6800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3988 6800 50  0001 C CNN
 F 3 "~" H 3950 6950 50  0001 C CNN
 	1    3950 6950
 	1    0    0    -1  
@@ -141,7 +130,7 @@ U 1 1 5CB31C07
 P 4400 6950
 F 0 "C2" H 4515 6996 50  0000 L CNN
 F 1 "100n" H 4515 6905 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4438 6800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4438 6800 50  0001 C CNN
 F 3 "~" H 4400 6950 50  0001 C CNN
 	1    4400 6950
 	1    0    0    -1  
@@ -152,7 +141,7 @@ U 1 1 5CB31C43
 P 4850 6950
 F 0 "C3" H 4965 6996 50  0000 L CNN
 F 1 "100n" H 4965 6905 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4888 6800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4888 6800 50  0001 C CNN
 F 3 "~" H 4850 6950 50  0001 C CNN
 	1    4850 6950
 	1    0    0    -1  
@@ -163,7 +152,7 @@ U 1 1 5CB31C7D
 P 5300 6950
 F 0 "C4" H 5415 6996 50  0000 L CNN
 F 1 "100n" H 5415 6905 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5338 6800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5338 6800 50  0001 C CNN
 F 3 "~" H 5300 6950 50  0001 C CNN
 	1    5300 6950
 	1    0    0    -1  
@@ -174,7 +163,7 @@ U 1 1 5CB31D2B
 P 5700 6950
 F 0 "C5" H 5815 6996 50  0000 L CNN
 F 1 "100n" H 5815 6905 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5738 6800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5738 6800 50  0001 C CNN
 F 3 "~" H 5700 6950 50  0001 C CNN
 	1    5700 6950
 	1    0    0    -1  
@@ -222,7 +211,7 @@ Wire Wire Line
 	1800 1950 2350 1950
 Wire Wire Line
 	1800 2050 2350 2050
-Text Label 1300 1350 2    50   ~ 0
+Text Label 1200 1350 2    50   ~ 0
 VCC
 Text Label 1800 2250 0    50   ~ 0
 GND
@@ -344,11 +333,11 @@ F 3 "" H 8250 2850 50  0001 C CNN
 	1    8250 2850
 	1    0    0    -1  
 $EndComp
-Text Label 7750 1450 2    50   ~ 0
+Text Label 7750 1650 2    50   ~ 0
 A0
 Text Label 7750 1550 2    50   ~ 0
 A1
-Text Label 7750 1650 2    50   ~ 0
+Text Label 7750 1450 2    50   ~ 0
 A2
 Text Label 7750 1750 2    50   ~ 0
 A3
@@ -356,19 +345,19 @@ Text Label 7750 1850 2    50   ~ 0
 A4
 Text Label 7750 1950 2    50   ~ 0
 A5
-Text Label 7750 2050 2    50   ~ 0
-A6
-Text Label 7750 2150 2    50   ~ 0
-A7
-Text Label 7750 2250 2    50   ~ 0
-A8
-Text Label 7750 2350 2    50   ~ 0
-A9
 Text Label 7750 2450 2    50   ~ 0
-A10
+A6
+Text Label 7750 2250 2    50   ~ 0
+A7
+Text Label 7750 2350 2    50   ~ 0
+A8
 Text Label 7750 2550 2    50   ~ 0
-A11
+A9
 Text Label 7750 2650 2    50   ~ 0
+A10
+Text Label 7750 2150 2    50   ~ 0
+A11
+Text Label 7750 2050 2    50   ~ 0
 A12
 Text Label 8750 2350 0    50   ~ 0
 GND
@@ -376,21 +365,21 @@ Text Label 8750 2650 0    50   ~ 0
 GND
 Text Label 8750 2450 0    50   ~ 0
 NWE
-Text Label 8750 1450 0    50   ~ 0
-RD0
-Text Label 8750 1550 0    50   ~ 0
-RD1
-Text Label 8750 1650 0    50   ~ 0
-RD2
-Text Label 8750 1750 0    50   ~ 0
-RD3
-Text Label 8750 1850 0    50   ~ 0
-RD4
-Text Label 8750 1950 0    50   ~ 0
-RD5
-Text Label 8750 2050 0    50   ~ 0
-RD6
 Text Label 8750 2150 0    50   ~ 0
+RD0
+Text Label 8750 2050 0    50   ~ 0
+RD1
+Text Label 8750 1950 0    50   ~ 0
+RD2
+Text Label 8750 1850 0    50   ~ 0
+RD3
+Text Label 8750 1750 0    50   ~ 0
+RD4
+Text Label 8750 1450 0    50   ~ 0
+RD5
+Text Label 8750 1550 0    50   ~ 0
+RD6
+Text Label 8750 1650 0    50   ~ 0
 RD7
 $Comp
 L 74xx:74LS00 U2
@@ -677,17 +666,6 @@ Wire Wire Line
 Connection ~ 5650 4600
 Text Label 5850 4600 0    50   ~ 0
 LOAD
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5CB4D0F5
-P 3000 5000
-F 0 "J2" H 2920 4675 50  0000 C CNN
-F 1 "Conn_01x02" H 2920 4766 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 5000 50  0001 C CNN
-F 3 "~" H 3000 5000 50  0001 C CNN
-	1    3000 5000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4200 4800 4000 4800
 Wire Wire Line
@@ -725,15 +703,6 @@ Wire Wire Line
 Connection ~ 4000 4900
 Wire Wire Line
 	4000 4900 4000 5000
-Wire Wire Line
-	3200 5000 3300 5000
-Wire Wire Line
-	3300 5000 3300 4900
-Wire Wire Line
-	3300 4900 3200 4900
-Wire Wire Line
-	3300 4900 3450 4900
-Connection ~ 3300 4900
 Connection ~ 3450 4900
 Text Label 3450 4900 0    50   ~ 0
 RRDISABLE
@@ -822,23 +791,58 @@ Wire Wire Line
 Wire Wire Line
 	2350 2150 1800 2150
 Wire Wire Line
-	1300 2250 1300 2350
+	1200 2250 1200 2350
 Wire Wire Line
-	1300 2350 2350 2350
-Text Label 1300 1450 2    50   ~ 0
+	1200 2350 2350 2350
+Text Label 1200 1450 2    50   ~ 0
 VD0
-Text Label 1300 1550 2    50   ~ 0
+Text Label 1200 1550 2    50   ~ 0
 VD1
-Text Label 1300 1650 2    50   ~ 0
+Text Label 1200 1650 2    50   ~ 0
 VD2
-Text Label 1300 1750 2    50   ~ 0
+Text Label 1200 1750 2    50   ~ 0
 VD3
-Text Label 1300 1850 2    50   ~ 0
+Text Label 1200 1850 2    50   ~ 0
 VD4
-Text Label 1300 1950 2    50   ~ 0
+Text Label 1200 1950 2    50   ~ 0
 VD5
-Text Label 1300 2050 2    50   ~ 0
+Text Label 1200 2050 2    50   ~ 0
 VD6
-Text Label 1300 2150 2    50   ~ 0
+Text Label 1200 2150 2    50   ~ 0
 VD7
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5CB35F97
+P 1600 1750
+F 0 "J2" H 1600 2400 50  0000 C CNN
+F 1 "Conn_01x10" H 1450 2300 50  0000 C CNN
+F 2 "footprints:FinePinHeader_1x10_P2.54mm_Vertical" H 1600 1750 50  0001 C CNN
+F 3 "~" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 5CB360B1
+P 1400 1750
+F 0 "J1" H 1350 2400 50  0000 L CNN
+F 1 "Conn_01x10" H 1000 2300 50  0000 L CNN
+F 2 "footprints:FinePinHeader_1x10_P2.54mm_Vertical" H 1400 1750 50  0001 C CNN
+F 3 "~" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5CB4564A
+P 3000 4900
+F 0 "J7" H 2920 4675 50  0000 C CNN
+F 1 "Conn_01x01" H 2920 4766 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 3000 4900 50  0001 C CNN
+F 3 "~" H 3000 4900 50  0001 C CNN
+	1    3000 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 4900 3450 4900
 $EndSCHEMATC
