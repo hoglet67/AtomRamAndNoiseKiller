@@ -481,10 +481,10 @@ Wire Wire Line
 Text Label 3950 2250 2    50   ~ 0
 LOAD
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L Connector_Generic:Conn_01x02 LK3
 U 1 1 5CB48B01
 P 5650 4800
-F 0 "J7" V 5523 4880 50  0000 L CNN
+F 0 "LK3" V 5523 4880 50  0000 L CNN
 F 1 "Conn_01x02" V 5614 4880 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 4800 50  0001 C CNN
 F 3 "~" H 5650 4800 50  0001 C CNN
@@ -619,10 +619,10 @@ F 3 "~" H 1400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J8
+L Connector_Generic:Conn_01x01 J7
 U 1 1 5CB4564A
 P 3000 4900
-F 0 "J8" H 2920 4675 50  0000 C CNN
+F 0 "J7" H 2920 4675 50  0000 C CNN
 F 1 "Conn_01x01" H 2920 4766 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 3000 4900 50  0001 C CNN
 F 3 "~" H 3000 4900 50  0001 C CNN
@@ -931,15 +931,15 @@ Wire Wire Line
 Text Label 6150 2400 2    50   ~ 0
 RAMNOE
 $Comp
-L Connector_Generic:Conn_01x03 J10
+L Connector_Generic:Conn_01x03 LK2
 U 1 1 5CD4E9A2
 P 5500 6550
-F 0 "J10" H 5650 6500 50  0000 C CNN
-F 1 "Conn_01x03" H 5800 6600 50  0000 C CNN
+F 0 "LK2" H 5580 6592 50  0000 L CNN
+F 1 "Conn_01x03" H 5580 6501 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5500 6550 50  0001 C CNN
 F 3 "~" H 5500 6550 50  0001 C CNN
 	1    5500 6550
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 6450 5300 6450
@@ -959,10 +959,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 6650 5300 6650
 $Comp
-L Connector_Generic:Conn_01x03 J9
+L Connector_Generic:Conn_01x03 LK1
 U 1 1 5CD9FF58
 P 5500 5800
-F 0 "J9" H 5580 5842 50  0000 L CNN
+F 0 "LK1" H 5580 5842 50  0000 L CNN
 F 1 "Conn_01x03" H 5580 5751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5500 5800 50  0001 C CNN
 F 3 "~" H 5500 5800 50  0001 C CNN
