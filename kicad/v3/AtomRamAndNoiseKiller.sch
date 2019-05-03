@@ -74,7 +74,7 @@ L Device:R R1
 U 1 1 5CB31ABD
 P 2950 3700
 F 0 "R1" V 3150 3700 50  0000 L CNN
-F 1 "220R" V 3050 3650 50  0000 L CNN
+F 1 "270R" V 3050 3650 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2880 3700 50  0001 C CNN
 F 3 "~" H 2950 3700 50  0001 C CNN
 	1    2950 3700
@@ -287,7 +287,7 @@ Text Label 2350 1950 2    50   ~ 0
 PD6
 Text Label 2350 2050 2    50   ~ 0
 PD7
-Text Label 1200 2250 2    50   ~ 0
+Text Label 1800 2150 0    50   ~ 0
 NVDG
 $Comp
 L power:VCC #PWR012
@@ -522,7 +522,7 @@ Wire Wire Line
 Connection ~ 5650 4300
 Text Label 6050 4300 0    50   ~ 0
 LOAD
-Text Label 2200 2150 0    50   ~ 0
+Text Label 1200 2250 2    50   ~ 0
 NDRS
 $Comp
 L power:PWR_FLAG #FLG01
@@ -548,21 +548,6 @@ F 3 "~" H 10850 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 10850 6250
-Wire Wire Line
-	2350 2250 2350 2150
-Wire Wire Line
-	2350 2150 1800 2150
-$Comp
-L Connector_Generic:Conn_01x10 J2
-U 1 1 5CB35F97
-P 1600 1750
-F 0 "J2" H 1600 2400 50  0000 C CNN
-F 1 "Conn_01x10" H 1450 2300 50  0000 C CNN
-F 2 "footprints:FinePinHeader_1x10_P2.54mm_Vertical" H 1600 1750 50  0001 C CNN
-F 3 "~" H 1600 1750 50  0001 C CNN
-	1    1600 1750
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 5CB360B1
@@ -631,8 +616,6 @@ Wire Wire Line
 	2100 4100 700  4100
 Wire Wire Line
 	700  4100 700  3150
-Wire Wire Line
-	700  2250 1200 2250
 $Comp
 L 74xx:74HC14 U1
 U 6 1 5CD05ABB
@@ -743,13 +726,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 2400 6750 50  0001 C CNN
 	1    2400 6750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1650 1750
 $Comp
 L Device:R R2
 U 1 1 5CD3EE56
 P 2950 6750
 F 0 "R2" V 3150 6750 50  0000 L CNN
-F 1 "220R" V 3050 6700 50  0000 L CNN
+F 1 "270R" V 3050 6700 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2880 6750 50  0001 C CNN
 F 3 "~" H 2950 6750 50  0001 C CNN
 	1    2950 6750
@@ -958,8 +940,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 2750 2150 2950
 Wire Wire Line
-	700  2250 700  3150
-Wire Wire Line
 	850  3050 850  2650
 Wire Wire Line
 	850  2650 2250 2650
@@ -1002,4 +982,33 @@ Wire Wire Line
 Wire Wire Line
 	2350 3050 2400 3050
 Connection ~ 2350 2850
+Wire Wire Line
+	1200 2250 1050 2250
+Wire Wire Line
+	1050 2250 1050 2350
+Wire Wire Line
+	1050 2350 2250 2350
+Wire Wire Line
+	2250 2350 2250 2250
+Wire Wire Line
+	2250 2250 2350 2250
+Wire Wire Line
+	1800 2150 2050 2150
+Wire Wire Line
+	2050 2150 2050 2500
+Wire Wire Line
+	2050 2500 700  2500
+Wire Wire Line
+	700  2500 700  3150
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5CB35F97
+P 1600 1750
+F 0 "J2" H 1600 2400 50  0000 C CNN
+F 1 "Conn_01x10" H 1450 2300 50  0000 C CNN
+F 2 "footprints:FinePinHeader_1x10_P2.54mm_Vertical" H 1600 1750 50  0001 C CNN
+F 3 "~" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

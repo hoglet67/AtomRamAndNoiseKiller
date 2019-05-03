@@ -287,7 +287,7 @@ Text Label 2350 1950 2    50   ~ 0
 PD6
 Text Label 2350 2050 2    50   ~ 0
 PD7
-Text Label 1200 2250 2    50   ~ 0
+Text Label 1800 2150 0    50   ~ 0
 NVDG
 $Comp
 L power:VCC #PWR012
@@ -522,7 +522,7 @@ Wire Wire Line
 Connection ~ 5650 4300
 Text Label 6050 4300 0    50   ~ 0
 LOAD
-Text Label 2200 2150 0    50   ~ 0
+Text Label 1200 2250 2    50   ~ 0
 NDRS
 $Comp
 L power:PWR_FLAG #FLG01
@@ -548,10 +548,6 @@ F 3 "~" H 10850 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 10850 6250
-Wire Wire Line
-	2350 2250 2350 2150
-Wire Wire Line
-	2350 2150 1800 2150
 $Comp
 L Connector_Generic:Conn_01x10 J2
 U 1 1 5CB35F97
@@ -631,8 +627,6 @@ Wire Wire Line
 	2100 4100 700  4100
 Wire Wire Line
 	700  4100 700  3150
-Wire Wire Line
-	700  2250 1200 2250
 $Comp
 L 74xx:74HC14 U1
 U 6 1 5CD05ABB
@@ -939,6 +933,51 @@ Wire Wire Line
 Connection ~ 850  3150
 Wire Wire Line
 	850  3150 850  3250
+Wire Wire Line
+	1450 3150 1550 3150
+Connection ~ 1550 3150
+Wire Wire Line
+	1550 3150 1550 3250
+Wire Wire Line
+	700  3150 850  3150
+Wire Wire Line
+	2350 2350 2350 2850
+Wire Wire Line
+	2350 2850 2400 2850
+Connection ~ 700  3150
+Wire Wire Line
+	2150 3150 2400 3150
+Wire Wire Line
+	1550 2750 2150 2750
+Wire Wire Line
+	2150 2750 2150 2950
+Wire Wire Line
+	850  3050 850  2650
+Wire Wire Line
+	850  2650 2250 2650
+Connection ~ 850  3050
+$Comp
+L Connector_Generic:Conn_01x05 LK4
+U 1 1 5CDF3E2B
+P 2600 2950
+F 0 "LK4" H 2680 2992 50  0000 L CNN
+F 1 "Conn_01x05" H 2680 2901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2600 2950 50  0001 C CNN
+F 3 "~" H 2600 2950 50  0001 C CNN
+	1    2600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2750 2400 2750
+Wire Wire Line
+	2250 2750 2250 2650
+Wire Wire Line
+	2400 2950 2150 2950
+Wire Wire Line
+	1550 3050 1550 3150
+Wire Wire Line
+	1550 2750 1550 3050
+Connection ~ 1550 3050
 $Comp
 L 74xx:74LS08 U2
 U 2 1 5CCD07B8
@@ -951,50 +990,26 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 3050 1550 3150
+	2350 2850 2350 3050
 Wire Wire Line
-	1450 3150 1550 3150
-Connection ~ 1550 3150
+	2350 3050 2400 3050
+Connection ~ 2350 2850
 Wire Wire Line
-	1550 3150 1550 3250
+	1200 2250 1050 2250
 Wire Wire Line
-	700  3150 850  3150
+	1050 2250 1050 2350
 Wire Wire Line
-	2350 2350 2350 2850
-$Comp
-L Connector_Generic:Conn_01x04 LK4
-U 1 1 5CDBAD94
-P 2600 2950
-F 0 "LK4" H 2680 2942 50  0000 L CNN
-F 1 "Conn_01x04" H 2680 2851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2600 2950 50  0001 C CNN
-F 3 "~" H 2600 2950 50  0001 C CNN
-	1    2600 2950
-	1    0    0    -1  
-$EndComp
+	1050 2350 2250 2350
 Wire Wire Line
-	2350 2850 2400 2850
-Connection ~ 700  3150
+	2250 2350 2250 2250
 Wire Wire Line
-	2150 3150 2400 3150
+	2250 2250 2350 2250
 Wire Wire Line
-	2400 2950 2250 2950
+	1800 2150 2050 2150
 Wire Wire Line
-	2250 2950 2250 2650
+	2050 2150 2050 2500
 Wire Wire Line
-	1550 2750 2150 2750
+	2050 2500 700  2500
 Wire Wire Line
-	2150 2750 2150 3050
-Wire Wire Line
-	2150 3050 2400 3050
-Wire Wire Line
-	700  2250 700  3150
-Wire Wire Line
-	850  3050 850  2650
-Wire Wire Line
-	850  2650 2250 2650
-Connection ~ 850  3050
-Wire Wire Line
-	1550 2750 1550 3050
-Connection ~ 1550 3050
+	700  2500 700  3150
 $EndSCHEMATC
